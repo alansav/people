@@ -1,8 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>1.1.0</VersionPrefix>
-    <TargetFrameworks>netcoreapp2.0;netstandard2.0;net46</TargetFrameworks>
+    <VersionPrefix>1.1.1</VersionPrefix>
+    <TargetFrameworks>netstandard2.0;net45;net46;</TargetFrameworks>
+    <Title>People</Title>
+    <Authors>Alan Savage</Authors>
+    <Description>Library providing classes for modelling basic information about people (name, gender, date of birth etc).</Description>
+    <Copyright>© 2017 Alan Savage</Copyright>
+    <PackageProjectUrl>https://github.com/alansav/people</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alansav/people</RepositoryUrl>
+    <PackageTags>people;person Names;personal details;gender</PackageTags>
   </PropertyGroup>
 
 </Project>
