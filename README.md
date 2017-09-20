@@ -1,5 +1,5 @@
 # people
-This project is a .NET Core class library.
+This project is a .NET Standard 2.0 class library.
 
 This project is designed to help developers when working with personal details. Any developer writing an application which tracks people will find this project a time saver.
 
