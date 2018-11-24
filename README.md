@@ -1,4 +1,7 @@
 # people
+
+[![Build status](https://ci.appveyor.com/api/projects/status/i55xn0kjb78jg326?svg=true)](https://ci.appveyor.com/project/alansav/people)
+
 This project is a .NET Standard 2.0 class library.
 
 This project is designed to help developers when working with personal details. Any developer writing an application which tracks people will find this project a time saver.

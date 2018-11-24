@@ -3,15 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89B0FC1B-E2D4-4410-8297-E1A840E7BD6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Savage.People", "Savage.People\Savage.People.csproj", "{46A5BD59-C0B0-4EDD-A1EA-8EE27CEB2FEA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C83F65FB-D897-4B91-B521-C02390ADB9A7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{786545B4-8856-43BA-8EF7-96D2017C252A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "People", "src\People\People.csproj", "{46A5BD59-C0B0-4EDD-A1EA-8EE27CEB2FEA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "test\UnitTests\UnitTests.csproj", "{E629BF13-0316-431D-B015-95E2F9744665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Savage.People.UnitTests", "Savage.People.UnitTests\Savage.People.UnitTests.csproj", "{E629BF13-0316-431D-B015-95E2F9744665}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,9 +24,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{46A5BD59-C0B0-4EDD-A1EA-8EE27CEB2FEA} = {89B0FC1B-E2D4-4410-8297-E1A840E7BD6C}
-		{E629BF13-0316-431D-B015-95E2F9744665} = {786545B4-8856-43BA-8EF7-96D2017C252A}
 	EndGlobalSection
 EndGlobal

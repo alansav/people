@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Xunit;
+﻿using Xunit;
 
 namespace Savage.People
 {
@@ -12,8 +11,8 @@ namespace Savage.People
 
             Assert.Equal("Mr.", subject.Title);
             Assert.True(subject.GivenNames.Length == 2);
-            Assert.True(subject.GivenNames.Contains("Fred"));
-            Assert.True(subject.GivenNames.Contains("George"));
+            Assert.Contains("Fred", subject.GivenNames);
+            Assert.Contains("George", subject.GivenNames);
             Assert.Equal("Smith", subject.FamilyName);
 
             Assert.Equal("Mr. Fred George Smith", subject.ToString());
@@ -25,7 +24,7 @@ namespace Savage.People
             var subject = new NameOfPerson("Mr.", "Fred", "Smith");
             Assert.Equal("Mr.", subject.Title);
             Assert.True(subject.GivenNames.Length == 1);
-            Assert.True(subject.GivenNames.Contains("Fred"));
+            Assert.Contains("Fred", subject.GivenNames);
             Assert.Equal("Smith", subject.FamilyName);
 
             Assert.Equal("Mr. Fred Smith", subject.ToString());
